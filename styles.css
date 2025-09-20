@@ -130,10 +130,11 @@ button {
   padding: 0.6em 1.8em;
   border-radius: 100px;
   background: var(--secondary-yellow);
+  transition: all 0.3s;
 }
 
 .user-btns button:hover {
-  background: var(--secondary-yellow);
+  background: #eebd09;
 }
 
 /* SIDEBAR */
@@ -229,8 +230,8 @@ button {
 .project-box {
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(3 1fr);
   gap: 1.5em;
   margin-top: 1em;
 }
@@ -281,12 +282,23 @@ button {
 }
 
 /* ANNOUNCEMENTS */
+.announcements {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
 .announcement-box {
+  display: flex;
+  flex-direction: column;
   margin-top: 1em;
   background-color: #fff;
   border-radius: 5px;
   padding: 1.5em;
   box-shadow: 2px 2px 5px rgb(0 0 0 / 0.2);
+}
+
+.ac-card {
+  flex: 1;
 }
 
 .ac-card:not(:first-child) {
@@ -307,6 +319,11 @@ button {
 }
 
 /* TRENDS */
+.trends {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
 .trends-box {
   margin-top: 1em;
   background-color: #fff;
