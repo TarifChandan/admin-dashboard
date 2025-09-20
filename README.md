@@ -35,3 +35,7 @@ Through this project, I successfully practiced and demonstrated:
 - Using the `grid-template` and `grid-area` properties to define layout areas.
 - Leveraging advanced grid features like `minmax()` and `auto-fit` to build responsive grids without media queries.
 - Effectively combining CSS Grid for macro-layout and Flexbox for micro-layout.
+
+##
+
+**Disclaimer:** This project was assigned by The Odin Project. The design and concept are part of their curriculum.
