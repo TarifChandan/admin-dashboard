@@ -4,6 +4,8 @@ A responsive Admin Dashboard built primarily with CSS Grid, as a project for The
 
 ## 🚀 Live Preview
 
+[View the live site here](https://tarifchandan.github.io/admin-dashboard/)
+
 ## 📐 Layout Structure
 
 The dashboard is built with a multi-tiered grid system:
